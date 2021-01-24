@@ -24,6 +24,26 @@ for letra <- String.graphemes(letras) do
       IO.puts("       _ \n      | |\n      | |\n  _   | |\n | |__| |\n \\______/\n")
     letra == "k" or letra == "K" ->
       IO.puts("  _  __\n | |/ /\n | ' / \n |  <  \n | . \\ \n |_|\\_\\\n")
+    letra == "l" or letra == "L" ->
+      IO.puts("  _      \n | |     \n | |     \n | |     \n | |____ \n |______|\n")
+    letra == "m" or letra == "M" ->
+      IO.puts("  __  __ \n |  \\/  |\n | \\  / |\n | |\\/| |\n | |  | |\n |_|  |_|\n")
+    letra == "n" or letra == "N" ->
+      IO.puts("  _   _ \n | \\ | |\n |  \\| |\n | . ` |\n | |\\  |\n |_| \\_|\n")
+    letra == "o" or letra == "O" ->
+      IO.puts("   ____  \n  / __ \\ \n | |  | |\n | |  | |\n | |__| |\n  \\____/ \n")
+    letra == "p" or letra == "P" ->
+      IO.puts("  _____  \n |  __ \\ \n | |__) |\n |  ___/ \n | |     \n |_|     \n")
+    letra == "q" or letra == "Q" ->
+      IO.puts("   ____  \n  / __ \\ \n | |  | |\n | |  | |\n | |__| |\n  \\___\\_\\\n")
+    letra == "r" or letra == "R" ->
+      IO.puts("  _____  \n |  __ \\ \n | |__) |\n |  _  / \n | | \\ \\ \n |_|  \\_\\\n")
+    letra == "s" or letra == "S" ->
+      IO.puts("   _____ \n  / ____|\n | (___  \n  \\___ \\ \n  ____) |\n |_____/ \n")
+    letra == "t" or letra == "T" ->
+      IO.puts("  _______ \n |__   __|\n    | |   \n    | |   \n    | |   \n    |_|   \n")
+    letra == "u" or letra == "U" ->
+      IO.puts("  _    _ \n | |  | |\n | |  | |\n | |  | |\n | |__| |\n \\______/ \n")
     true -> IO.puts "."
 
   end

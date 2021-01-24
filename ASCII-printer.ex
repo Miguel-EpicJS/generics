@@ -44,7 +44,17 @@ for letra <- String.graphemes(letras) do
       IO.puts("  _______ \n |__   __|\n    | |   \n    | |   \n    | |   \n    |_|   \n")
     letra == "u" or letra == "U" ->
       IO.puts("  _    _ \n | |  | |\n | |  | |\n | |  | |\n | |__| |\n \\______/ \n")
-    true -> IO.puts "."
+    letra == "v" or letra == "V" ->
+      IO.puts(" __      __\n \\ \\    / /\n  \\ \\  / / \n   \\ \\/ /  \n    \\  /   \n     \\/    \n")
+    letra == "w" or letra == "W" ->
+      IO.puts(" __          __\n \\ \\        / /\n  \\ \\  /\\  / / \n   \\ \\/  \\/ /  \n    \\  /\\  /   \n     \\/  \\/    \n")
+    letra == "x" or letra == "X" ->
+      IO.puts(" __   __\n \\ \\ / /\n  \\ V / \n   > <  \n  / . \\ \n /_/ \\_\\\n")
+    letra == "y" or letra == "Y" ->
+      IO.puts(" __     __\n \\ \\   / /\n  \\ \\_/ / \n   \\   /  \n    | |   \n    |_|   \n")
+    letra == "z" or letra == "Z" ->
+      IO.puts("  ______\n |___  /\n    / / \n   / /  \n  / /__ \n /_____|\n")
+    true -> IO.puts ""
 
   end
 end
